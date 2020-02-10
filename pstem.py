@@ -21,7 +21,7 @@ for i in range(len(s)):
         
 for i in range(len(l)):
     if i < len(l)-1:
-        if l[i]=='c' and l[i+1]=='v':
+        if l[i]=='v' and l[i+1]=='c':
             m +=1
 
 def double_cons(x,y):
